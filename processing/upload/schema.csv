@@ -1,0 +1,37 @@
+mongodb;txt;json
+Database;DataBase;ops:world-patent-data.@xmlns.ops
+File_path;;
+Patmonitor Version;PatmonitorVersion;N/A
+Download Date;DownloadDate;N/A
+Sub Database;SubDatabase;N/A
+Title;Title;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.invention-title.$
+Publication Number;PublicationNumber;ops:world-patent-data.ops:equivalents-inquiry.ops:publication-reference.document-id.doc-number.$
+Country;;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.@country
+Doc_kind;;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.@kind
+Publication Date;PublicationDate;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.publication-reference.document-id.date.$
+Inventor;Inventor;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.parties.inventors.inventor
+Applicant;Applicant;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.parties.applicants.applicant.applicant-name.name.$
+Requested Patent;RequestedPatent;N/A
+Application Number;ApplicationNumber;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.application-reference.document-id.doc-number.$
+Application Date;ApplicationDate;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.application-reference.document-id.date.$
+Original Application Number;OriginalApplicationNumber;N/A
+Priority;PriorityNumber;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.priority-claims.priority-claim.document-id.doc-number.$
+Classification;;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.patent-classifications
+IPC (International Patent Classification);IPC;N/A
+ICP;ICP;N/A
+CPC (Cooperative Patent Classification);CPC;N/A
+NCL;NCL;N/A
+MCS;MCS;N/A
+MCA;MCA;N/A
+Classification IPCR;;
+Family ID;Inpadoc Family ID;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.@family-id
+Family;Family;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.@family-id
+Abstract;Abstract;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.abstract.p
+Abstract_EN;Abstract_EN;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.abstract.p
+Description;Description;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.description.p
+Claims;Claims;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.claims.p
+Application Country;ApplicationCountry;ops:world-patent-data.ops:equivalents-inquiry.ops:publication-reference.document-id.country.$
+OPS Family Data;OPS Family Data;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data
+OPS Simple Family Data;OPS Simple Family Data;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document
+References;Cited Documents;ops:world-patent-data.ops:equivalents-inquiry.ops:inquiry-result.exchange-documents.exchange-document.bibliographic-data.references-cited.citation.patcit.document-id
+raw;;
