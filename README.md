@@ -1,5 +1,7 @@
+![](images/banner.png)
+
 This repository contains the code used in my Master's thesis at EPFL, LHST Lab (2025).
-The tools developed here are designed to process and analyze patent data, focusing on the extraction of information from patent documents, classification of patents, and clustering of similar patents.
+The tools developed here are designed to process and analyze patent data, focusing on the extraction of information from patent documents from images with OCR and NLP, classification of patents using CPC classification, and clustering inventors/assignee...
 # PatentData Repository Structure
 ```
 📦 PatentData
@@ -8,38 +10,40 @@ The tools developed here are designed to process and analyze patent data, focusi
 ├─ processing
 │  ├─ classification
 │  │  └─ multiclass_pytorch.py
-│  └─ extractio
-│     ├─ ID2Dates
-│     │  └─ german_dates.ipynb
-│     ├─ llm
-│     │  ├─ comapre_json.ipynb
-│     │  ├─ gemma.ipynb
-│     │  ├─ google_api.ipynb
-│     │  ├─ LambdaLabda_api.ipynb
-│     │  └─ OpenAI_api.ipynb
-│     └─ spacy
-│        ├─ run_spacy.py
-│        ├─ spacy_de.ipynb
-│        ├─ spacy_fr.ipynb
-│        ├─ spacy_gb.ipynb
-│        └─ spacy.ipyb
-├─ ocr
-│  ├─ page_labels
-│  │  ├─ create_dataloader.py
-│  │  ├─ create_model.py
-│  │  └─ preditct_type.py
-│  ├─ parellel_start.py
-│  └─ tesseract_pipeline.py
-├─ scraper
-│  ├─ fetch_pdf_us.ipynb
-│  └─ google_patents_scrape.py
-├─ upload
-│  ├─ aggregate.py
-│  ├─ classification_predictor.py
-│  ├─ import_json.py
-│  ├─ import_txt.py
-│  ├─ schema.csv
-│  └─ upload_text.py
+│  ├─ extractio
+│  │  ├─ ID2Dates
+│  │  │  └─ german_dates.ipynb
+│  │  ├─ llm
+│  │  │  ├─ comapre_json.ipynb
+│  │  │  ├─ gemma.ipynb
+│  │  │  ├─ google_api.ipynb
+│  │  │  ├─ LambdaLabda_api.ipynb
+│  │  │  └─ OpenAI_api.ipynb
+│  │  └─ spacy
+│  │     ├─ run_spacy.py
+│  │     ├─ spacy_de.ipynb
+│  │     ├─ spacy_fr.ipynb
+│  │     ├─ spacy_gb.ipynb
+│  │     └─ spacy.ipyb
+│  ├─ ocr
+│  │  ├─ page_labels
+│  │  │  ├─ create_dataloader.py
+│  │  │  ├─ create_model.py
+│  │  │  └─ preditct_type.py
+│  │  ├─ parellel_start.py
+│  │  └─ tesseract_pipeline.py
+│  ├─ scraper
+│  │  ├─ fetch_pdf_us.ipynb
+│  │  └─ google_patents_scrape.py
+│  └─ upload
+│     ├─ aggregate.py
+│     ├─ classification_predictor.py
+│     ├─ import_json.py
+│     ├─ import_txt.py
+│     ├─ schema.csv
+│     └─ upload_text.py
+├─ images
+│  └─ banner.png
 ├─ README.md
 ├─ thesis.pdf
 └─ requirements.txt
