@@ -14,7 +14,7 @@ The tools developed here are designed to process and analyze patent data, focusi
 │  │  ├─ ID2Dates
 │  │  │  └─ german_dates.ipynb
 │  │  ├─ llm
-│  │  │  ├─ comapre_json.ipynb
+│  │  │  ├─ compare_json.ipynb
 │  │  │  ├─ gemma.ipynb
 │  │  │  ├─ google_api.ipynb
 │  │  │  ├─ LambdaLabda_api.ipynb
