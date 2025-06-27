@@ -2,6 +2,9 @@
 
 This repository contains the code used in my Master's thesis at EPFL, LHST Lab (2025).
 The tools developed here are designed to process and analyze patent data, focusing on the extraction of information from patent documents from images with OCR and NLP, classification of patents using CPC classification, and clustering inventors/assignee...
+
+The thesis supervisor was Dr. Nicolas Chachereau.
+The supervising professor was Jérôme Baudry.
 # PatentData Repository Structure
 ```
 📦 PatentData
@@ -63,7 +66,7 @@ docker run --name mongodb -d -p 27017:27017 mongo
 
 You then need to import the dataset into MongoDB. To load the .dump file, you can use the following command:
 ```bash
-mongorestore --db patentdata --drop /path/to/patentdata.dump
+docker exec -i mongodb /usr/bin/mongorestore --archive < patentdata.dump
 ```
 
 The dataset is available in the `patentdata.dump` file, which can be found on [Kaggle](https://www.kaggle.com/datasets/naelopode/patentdata)
